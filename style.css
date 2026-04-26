@@ -1,0 +1,232 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= BODY ================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+/* ================= MENU TOPO ================= */
+.topo {
+    background-color: #3a3a3a;
+    height: 40px;
+}
+
+.topo ul {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    list-style: none;
+}
+
+.topo li a {
+    display: block;
+    color: #ddd;
+    padding: 0 15px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.topo li a:hover {
+    background-color: #2a2a2a;
+}
+
+.direita {
+    margin-left: auto;
+}
+
+/* ================= BANNER VERDE ================= */
+.banner-topo {
+    background: linear-gradient(to right, #0a7a2f, #0c8f2f);
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+/* área do logo */
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+
+/* logo */
+.banner-topo img {
+    height: 70px;
+    margin-left: 10px;
+}
+
+/* ================= CONTEÚDO ================= */
+main {
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* títulos */
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+/* parágrafos */
+p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ================= IMAGEM OVAL ================= */
+.banner img {
+    width: 550px;
+    border-radius: 50% / 35%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* texto abaixo da imagem */
+.info {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* ================= VÍDEO ================= */
+.video {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ================= FORMULÁRIOS ================= */
+form {
+    width: 400px;
+    background: white;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+fieldset {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #0a7a2f;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #086524;
+}
+
+/* ================= CURSOS ================= */
+.pagina-cursos main {
+    background: #fff;
+    padding: 20px;
+}
+
+.pagina-cursos p {
+    text-align: justify;
+}
+
+/* ================= EVENTOS ================= */
+.pagina-eventos main.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ================= SOBRE ================= */
+.sobre-container {
+    padding: 20px;
+}
+
+.sobre-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* ================= FACEBOOK ================= */
+.facebook {
+    width: 40px;
+}
+
+/* ================= RODAPÉ ================= */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+footer img {
+    width: 30px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.pagina-entrar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pagina-entrar .topo ul {
+    display: flex;
+}
+
+.pagina-entrar .login-page {
+    width: 100%;
+}
+
+.pagina-entrar .linha {
+    width: 100%;
+    background: #e9e9e9;
+    padding: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.pagina-entrar .linha label {
+    width: 80px;
+}
+
+.pagina-entrar .linha input {
+    width: 200px;
+}
+
+.pagina-entrar button {
+    width: 100%;
+    padding: 12px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+}
